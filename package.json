@@ -1,0 +1,45 @@
+{
+  "name": "schema2md",
+  "version": "0.1.5",
+  "description": "A lightweight markdown generator from JSON Schema.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "cov": "jest --coverage",
+    "lint": "xo --fix lib",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "url": "https://github.com/rich-lab/json-schema-2-markdown",
+    "type": "git"
+  },
+  "author": "ulivz <chl814@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+   "chokidar": "^3.3.1",
+"schema2md": ""
+  },
+  "devDependencies": {
+    "@vuepress/shared-utils": "^1.3.1",
+    "markdown-it-emoji": "^1.4.0",
+    "toml": "^3.0.0",
+    "@vue/component-compiler-utils": "^3.1.1",
+    "conventional-changelog-cli": "^2.0.31",
+    "jest-cli": "^25.1.0",
+    "xo": "0.23.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "prettier": true,
+    "rules": {
+      "no-await-in-loop": "off"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
