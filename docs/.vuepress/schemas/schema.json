@@ -1,0 +1,22 @@
+{
+  "title": "foo.config.js",
+  "description": "Description of foo.config.js",
+  "properties": {
+    "type": {
+      "description": "TYPE's description",
+      "type": "string",
+      "enum": [
+        "foo",
+        "bar"
+      ]
+    },
+    "env": {
+      "description": "ENV's description",
+      "type": "string"
+    },
+    "name": {
+      "description": "ENV's description",
+      "type": "string"
+    }
+  }
+}

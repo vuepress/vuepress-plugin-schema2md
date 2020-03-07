@@ -10,7 +10,9 @@
     "test": "jest",
     "cov": "jest --coverage",
     "lint": "xo --fix lib",
-    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+    "docs:dev": "vuepress dev docs --temp docs/.temp",
+    "docs:build": "npm run docs:prepare && vuepress build docs --temp docs/.temp"
   },
   "repository": {
     "url": "https://github.com/rich-lab/json-schema-2-markdown",
@@ -23,11 +25,7 @@
     "schema2md": "^0.1.5"
   },
   "devDependencies": {
-    "@vuepress/shared-utils": "^1.3.1",
-    "markdown-it-emoji": "^1.4.0",
-    "toml": "^3.0.0",
-    "@vue/component-compiler-utils": "^3.1.1",
-    "conventional-changelog-cli": "^2.0.31",
+    "vuepress": "^1.3.1",
     "jest-cli": "^25.1.0",
     "xo": "0.23.0"
   },

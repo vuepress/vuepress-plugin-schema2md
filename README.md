@@ -8,6 +8,10 @@
 - ❤️ HMR Support!
 - 🎁 Support extra markdown file to be merged into final content.
 
+## Example
+
+![](./.media/demo.gif)
+
 ## Install
 
 ```bash
