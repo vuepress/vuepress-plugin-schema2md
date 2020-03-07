@@ -1,7 +1,7 @@
 {
-  "name": "schema2md",
+  "name": "vuepress-plugin-schema2md",
   "version": "0.2.0",
-  "description": "A lightweight markdown generator from JSON Schema.",
+  "description": "A VuePress plugin to help you generate pages via JSON Schema (HMR Support).",
   "main": "lib/index.js",
   "files": [
     "lib"
