@@ -1,3 +1,13 @@
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/rich-lab/json-schema-2-markdown/compare/v0.2.1...v0.2.2) (2020-03-09)
+
+
+### Bug Fixes
+
+* process should exit after build. ([7e77f2d](https://github.com/rich-lab/json-schema-2-markdown/commit/7e77f2d))
+
+
+
 ## [0.2.1](https://github.com/rich-lab/json-schema-2-markdown/compare/v0.2.0...v0.2.1) (2020-03-07)
 
 
