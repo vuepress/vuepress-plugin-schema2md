@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-schema2md",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A VuePress plugin to help you generate pages via JSON Schema (HMR Support).",
   "main": "lib/index.js",
   "files": [
