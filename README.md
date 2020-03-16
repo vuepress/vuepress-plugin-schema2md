@@ -20,8 +20,8 @@
 ## Install
 
 ```bash
-yarn add -D @vuepress/plugin-schema2md
-# OR npm install -D @vuepress/plugin-schema2md
+yarn add vuepress-plugin-schema2md  -D 
+# OR npm install vuepress-plugin-schema2md -D
 ```
 
 ## Usage
