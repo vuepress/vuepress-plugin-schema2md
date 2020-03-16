@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "cov": "jest --coverage",
-    "lint": "xo --fix lib",
+    "lint": "eslint --fix lib",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
     "docs:build": "npm run docs:prepare && vuepress build docs --temp docs/.temp"
@@ -28,15 +28,8 @@
     "vuepress": "^1.3.1",
     "@vuepress/shared-utils": "^1.3.1",
     "jest-cli": "^25.1.0",
-    "xo": "0.23.0"
-  },
-  "xo": {
-    "space": true,
-    "semicolon": false,
-    "prettier": true,
-    "rules": {
-      "no-await-in-loop": "off"
-    }
+    "eslint": "^6.8.0",
+    "eslint-config-lab": "^0.1.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
