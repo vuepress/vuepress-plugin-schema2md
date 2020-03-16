@@ -12,7 +12,9 @@
     "lint": "eslint --fix lib",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
-    "docs:build": "npm run docs:prepare && vuepress build docs --temp docs/.temp"
+    "docs:build": "npm run docs:prepare && vuepress build docs --temp docs/.temp",
+    "depcost": "depcost --record --npm-client=npm",
+    "postpublish": "npm run depcost"
   },
   "repository": {
     "url": "https://github.com/rich-lab/json-schema-2-markdown",
@@ -29,7 +31,8 @@
     "@vuepress/shared-utils": "^1.3.1",
     "jest-cli": "^25.1.0",
     "eslint": "^6.8.0",
-    "eslint-config-lab": "^0.1.4"
+    "eslint-config-lab": "^0.1.4",
+    "depcost": "^0.2.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
