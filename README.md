@@ -29,9 +29,13 @@ yarn add vuepress-plugin-schema2md  -D
 ```js
 // .vuepress/config.js
 module.exports = {
-  plugins: ['schema2md', {
-    // Options
-  }]
+  plugins: [
+    [
+      'schema2md', {
+        // Options
+      }
+    ]
+  ]
 }
 ```
 
